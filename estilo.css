@@ -1,0 +1,313 @@
+
+
+header {
+    
+    background-color: rgb(78, 135, 240);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+body {
+    background-color: rgb(222, 222, 119);
+}
+
+.logoindex {
+    background-color: rgb(250, 36, 36);
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid black 3px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-style: initial;
+    
+    
+    
+    
+    
+}
+nav {
+    background-color: rgb(163, 231, 173);
+    flex-grow: 4;
+
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+    
+    
+}
+img {
+    height: 200px;
+    width: 300px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(184, 179, 179);
+
+
+}
+footer {
+    background-color: rgb(203, 129, 240);
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    
+}
+
+.lwa {
+    width: 40px;
+    height: 40px;
+}
+.ltw {
+    width: 40px;
+    height: 40px;
+}
+.lyt {
+    width: 40px;
+    height: 40px;
+}
+.lins {
+    width: 40px;
+    height: 40px;
+}
+.lfa {
+    width: 40px;
+    height: 40px;
+}
+.logoredes {
+    height: 70px;
+    width: 100px;
+}
+
+.body-grid {
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 0.5fr repeat(2, 2fr);
+    grid-template-areas: 
+    "nav-grid header-grid header-grid"
+    "nav-grid main-grid main-grid"
+    "nav-grid main-grid main-grid"
+    "nav-grid footer-grid footer-grid";
+    column-gap: 10px;
+    row-gap: 10px;
+    
+
+
+    
+    
+    
+    
+
+}
+
+
+
+
+.header-grid {
+
+    background-color: gold;
+    grid-area: header-grid;
+    
+}
+
+.nav-grid {
+    background-color: rgb(255, 226, 62);
+    grid-area: nav-grid;
+    
+}
+
+.main-grid {
+    grid-area: main-grid;
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+    "seccionuno seccionuno aside"
+    "secciondos secciondos aside";
+    column-gap: 10px;
+    row-gap: 10px;
+     
+
+}
+ 
+
+
+#seccionuno {
+    background-color: gold;
+    grid-area: seccionuno;
+
+}
+
+#secciondos {
+background-color: gold;
+grid-area: secciondos;
+}
+
+aside {
+    background-color: gold;
+    grid-area: aside;
+    
+
+}
+
+.footer-grid {
+    background-color: rgb(252, 236, 148);
+    grid-area: footer-grid;
+
+}
+.ul-grid {
+    flex-direction: column;
+    color: white;
+}
+.comparativo {
+    background-color: darkorchid;
+    color: aliceblue;
+}
+.divs {
+    background-color: brown;
+    color: aliceblue;
+}
+    
+.favor {
+    color: rgb(12, 1, 1);
+}
+
+.logo-sim {
+    height: 50px;
+    width: 50px;
+}
+.fhatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(128, 109, 252);
+
+
+}
+#hatch {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div-hatch {
+    background-color: rgb(254, 254, 14);
+    font-size: 30px;
+    
+}
+
+.fuego {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#fuego {
+    height: 40px;
+    width: 50px;
+    padding-left: 20px;
+    
+}
+#hot {
+    background-color: blueviolet;
+    
+}
+
+.tit-h {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.nav-hot {
+    background-color: gold;
+}
+
+.subtitulo {
+    background-color: rgb(241, 66, 66);
+}
+.body-hot {
+    background-color: coral;
+}
+
+.modelo {
+    background-color: blueviolet;
+    color: white;
+}
+
+.sec-hot {
+    background-color: rgb(145, 128, 34);
+}
+
+.redes-hot {
+    height: 50px;
+    width: 70px;
+}
+
+
+@media ( min-width: 480px) and (max-width: 1024px) {
+
+    ul {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    
+    
+    
+    
+    
+ 
+    
+    
+
+
+
+
